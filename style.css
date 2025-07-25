@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(116, 116, 195);
+}
+.weather-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    height: 25rem;
+    width: 25rem;
+    padding: 1rem;
+    margin: 50px auto;
+    
+}
+
+#weather-info{
+    
+    flex-direction: column;
+    height: 18rem;
+    width: 18rem;
+    /* background-color: red; */
+    border: 1px solid black;
+}
